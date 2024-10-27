@@ -73,11 +73,11 @@
         layer_3 {
             bindings = <
 &none  &none
-&none  &none  &none   &none  &none
-&none  &none  &none   &none  &none  &none    &none  &none  &none  &none
-&none  &none  &none   &none  &none  &none    &none  &none  &none  &none
-&none  &none  &tog 3  &none  &none  &none    &none  &none  &none  &none
-              &none          &none  &none    &none  &none
+&none  &none           &none           &none           &none
+&none  &kp LC(LA(F1))  &kp LC(LA(F2))  &kp LC(LA(F3))  &none  &none    &none  &none  &none  &none
+&none  &none           &none           &none           &none  &none    &none  &none  &none  &none
+&none  &none           &tog 3          &none           &none  &none    &none  &none  &none  &none
+                       &none                           &none  &none    &none  &none
             >;
         };
     };
