@@ -72,12 +72,12 @@
 
         layer_3 {
             bindings = <
-&trans  &trans
-&trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &tog 3  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-                &trans          &trans  &trans    &trans  &trans
+&none  &none
+&none  &none  &none   &none  &none
+&none  &none  &none   &none  &none  &none    &none  &none  &none  &none
+&none  &none  &none   &none  &none  &none    &none  &none  &none  &none
+&none  &none  &tog 3  &none  &none  &none    &none  &none  &none  &none
+              &none          &none  &none    &none  &none
             >;
         };
     };
